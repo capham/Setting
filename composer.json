@@ -1,5 +1,5 @@
 {
-  "name": "idavoll/setting-module",
+  "name": "capham/setting-module",
   "type": "asgard-module",
   "description": "Setting module for AsgardCMS. Handles all the site settings.",
   "keywords": [
@@ -8,6 +8,10 @@
   ],
   "license": "MIT",
   "authors": [
+    {
+      "name": "Ca Pham",
+      "email": "capham89@gmail.com"
+    },
     {
       "name": "Nicolas Widart",
       "email": "info@asgardcms.com",
@@ -32,11 +36,6 @@
     "psr-4": {
       "Modules\\Setting\\": ".",
       "Modules\\": "Modules/"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "4.0.x-dev"
     }
   },
   "minimum-stability": "dev",
