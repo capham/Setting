@@ -2,8 +2,9 @@
 
 namespace Modules\Setting\Entities;
 
-use Dimsav\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
+
+use Astrotomic\Translatable\Translatable;
 use Modules\Media\Support\Traits\MediaRelation;
 
 class Setting extends Model
